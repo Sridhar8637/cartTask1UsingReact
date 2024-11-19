@@ -47,3 +47,30 @@
     color:aliceblue;
     font-weight: bold;
 }
+
+
+@media (max-width: 768px) {
+    #cartContainer {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .CartClass {
+        width: 90%;
+        height: auto;
+        margin: 10px auto;
+    }
+
+    .cartImg {
+        width:150px;
+        height: 150px;
+    }
+
+    #CartBut {
+        margin-top: 15px;
+        padding: 8px;
+        font-size: 14px;
+    }
+}
+
+

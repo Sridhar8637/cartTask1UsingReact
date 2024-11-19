@@ -65,3 +65,34 @@
 }
 
 
+@media (max-width: 768px) {
+    #container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 2%;
+        position:relative;
+        margin-bottom: 10px;
+    }
+
+    #col1 {
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #titleIcon {
+        font-size: 36px;
+    }
+
+    #col2, #col3 {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .accBut, .logBut {
+        font-size: 16px;
+        width: 100%;
+        text-align: left;
+    }
+}
