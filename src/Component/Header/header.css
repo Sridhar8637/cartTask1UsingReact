@@ -1,0 +1,67 @@
+
+*{
+    padding:0px;
+    margin:0px;
+}
+
+#container{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:1%;
+    background: linear-gradient(180deg,BLACK,red,black);
+    position:sticky;
+    top: 0%;
+    color:white;
+}
+
+#col1{
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+#titleIcon{
+    font-size: 56px;
+    color: black;
+}
+
+#col2{
+    display: flex;
+    gap: 20px;
+}
+
+.accBut{
+    padding:2%;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color:white;
+}
+
+.accBut:hover{
+    font-size: 17px;
+}
+
+#col3{
+    display: flex;
+    gap: 20px;
+}
+
+.logBut{
+    font-size: 18px;
+    padding:2%;
+    cursor: pointer;
+    color:white;
+    background: none;
+    border: none;
+}
+
+.logBut:hover{
+    font-size: 17px;
+}
+
+
